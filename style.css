@@ -1,0 +1,38 @@
+body {
+  background: #f4f4f4;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 400px;
+}
+
+input[type="file"] {
+  margin: 20px 0;
+}
+
+.image-area {
+  position: relative;
+}
+
+img#uploadedImage {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+canvas#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
