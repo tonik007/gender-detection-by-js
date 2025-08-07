@@ -52,7 +52,7 @@ uploadedImage.addEventListener('load', async () => {
     ctx.lineWidth = 2;
     ctx.strokeRect(box.x, box.y, box.width, box.height);
 
-    ctx.fillStyle = 'green';
+    ctx.fillStyle = '#008000';
     ctx.font = '16px Arial';
     ctx.fillText(label, box.x, box.y > 20 ? box.y - 5 : box.y + 15);
   });
